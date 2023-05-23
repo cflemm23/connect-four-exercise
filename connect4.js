@@ -165,7 +165,7 @@ class Player{
   }
 }
 
-document.elementById('start-game').addEventListener('click', () => {
+document.getElementById('start-game').addEventListener('click', () => {
   let p1= new Player(document.getElemenetById(p1-color).value);
   let p2= new Player(document.getElementById(p2-color).value);
   new Game(p1,p2);
